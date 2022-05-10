@@ -1,26 +1,34 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
 }
-.herosection{
-    background-image: url(C:\Users\HP\Desktop\projects\images\KE-en-20220214-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+
+.herosection {
+    background: url("./images/background-img.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 20px 10px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     padding: 50px 60px;
     padding-top: 30px;
-   
+
 
 }
-nav span{
-font-size: 50px;
-color: crimson;
-font-feature-settings: "vpal";
-font-weight: bolder;
+
+nav span {
+    font-size: 50px;
+    color: crimson;
+    font-feature-settings: "vpal";
+    font-weight: bolder;
 }
-nav input{
+
+nav input {
     color: white;
     background-color: rgb(252, 34, 34);
     margin: 10px 20px;
@@ -30,18 +38,21 @@ nav input{
     border-radius: 6px;
     font-size: 17px;
 }
-nav input:hover{
-cursor: pointer;
+
+nav input:hover {
+    cursor: pointer;
 }
-.Headlines{
+
+.Headlines {
     padding: 20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: stretch;
-    
+
 }
-.Headlines .Firstspan{
+
+.Headlines .Firstspan {
     font-size: 50px;
     font-weight: bolder;
     padding: 20px 400px;
@@ -49,10 +60,12 @@ cursor: pointer;
     margin-right: 15%;
     margin-bottom: 0px;
     margin-top: 30px;
+    color: azure;
 
-    
+
 }
-.Scndspan{
+
+.Scndspan {
     font-size: 50px;
     font-weight: bolder;
     margin-top: 0%;
@@ -60,37 +73,44 @@ cursor: pointer;
     padding-left: 448px;
     padding-top: 0%;
     padding-bottom: 10px;
-   
+    color: azure;
+
 }
-.Headlines .Secondspan{
+
+.Headlines .Secondspan {
     font-size: 30px;
     padding-left: 448px;
     font-weight: bold;
-
+    color: azure;
 }
-.Headlines .Thirdspan{
+
+.Headlines .Thirdspan {
     font-size: 24px;
     padding-top: 30px;
-   padding-left: 350px;
-   font-weight: bold;
+    padding-left: 350px;
+    font-weight: bold;
+    color: hsl(180, 100%, 97%);
 }
-.FirstButton{
+
+.FirstButton {
     display: flex;
     justify-content: flex-start;
-    
+
     padding-left: 350px;
 }
-.FirstButton input[type="text"]{
-height: 60px;
-width: 500px;
-background-color: rgb(243, 239, 239);
-border: none;
-color: rgb(97, 94, 93);
-text-align: inherit;
-font-size: 18px;
+
+.FirstButton input[type="text"] {
+    height: 60px;
+    width: 500px;
+    background-color: rgb(243, 239, 239);
+    border: none;
+    color: rgb(97, 94, 93);
+    text-align: inherit;
+    font-size: 18px;
 
 }
-.FirstButton input[type="button"]{
+
+.FirstButton input[type="button"] {
     padding: 15px 50px;
     font-size: 25px;
     background-color: rgb(252, 34, 34);
@@ -98,18 +118,21 @@ font-size: 18px;
     color: white;
 
 }
-.FirstButton input[type="button"]:hover{
+
+.FirstButton input[type="button"]:hover {
     cursor: pointer;
     background-color: rgb(214, 62, 35);
 }
-.section1{
-    padding: 50px;
+
+.section1 {
+    padding: 5px;
     display: flex;
     background-color: rgb(27, 25, 25);
-    margin-top: 170px;
+    /* margin-top: 170px; */
     border-top: grey solid 9px;
 }
-.spans{
+
+.spans {
     display: flex;
     flex-direction: column;
     padding: 20px 20px;
@@ -117,7 +140,8 @@ font-size: 18px;
     justify-content: center;
     color: blanchedalmond;
 }
-.spans .span1{
+
+.spans .span1 {
     font-size: 40px;
     padding-left: 35px;
     padding-top: 10%;
@@ -125,34 +149,39 @@ font-size: 18px;
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.spans .span2{
+
+.spans .span2 {
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 27px;
     width: 700px;
 }
-.section1 img{
+
+.section1 img {
     height: 300px;
     width: 900px;
-   margin-top: 50px;
-   margin-bottom: 0;
-   border: none;
-   border-radius: 12px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 12px;
 }
-.section2{
+
+.section2 {
     display: flex;
     background-color: rgb(27, 25, 25);
     padding-top: 20px;
     border-top: grey solid 9px;
 }
-.section2 img{
+
+.section2 img {
     height: 400px;
     width: 550px;
     padding: 30px 20px;
     background: none;
     border-radius: 50px;
 }
-.section2 .sec2spans{
+
+.section2 .sec2spans {
     display: flex;
     flex-direction: column;
     -ms-flex-align: center;
@@ -160,18 +189,21 @@ font-size: 18px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.section2 .sec2spans .sec2span1{
-   font-size: 40px;
-   width: 500px;
-   font-weight: bolder;
-    
+
+.section2 .sec2spans .sec2span1 {
+    font-size: 40px;
+    width: 500px;
+    font-weight: bolder;
+
 }
-.section2 .sec2spans .sec2span2{
+
+.section2 .sec2spans .sec2span2 {
     font-size: 25px;
     padding-top: 20px;
     width: 600px;
 }
-.section3{
+
+.section3 {
     padding: 40px;
     border-top: grey solid 9px;
     display: flex;
@@ -181,84 +213,99 @@ font-size: 18px;
     color: white;
 
 }
-.section3 .sec3span1{
-font-size: 50px;
-font-weight: bolder;
-padding-left: 100px;
+
+.section3 .sec3span1 {
+    font-size: 50px;
+    font-weight: bolder;
+    padding-left: 100px;
 }
-.section3 .sec3span2{
-font-size: 20px;
-width: 560px;
-padding-top: 20px;
-padding-left: 100px;
-font-weight: bold;
+
+.section3 .sec3span2 {
+    font-size: 20px;
+    width: 560px;
+    padding-top: 20px;
+    padding-left: 100px;
+    font-weight: bold;
 }
-.section4{
+
+.section4 {
     display: flex;
     border-top: grey solid 9px;
     background-color: rgb(27, 25, 25);
 }
-.section4 .spans{
+
+.section4 .spans {
     display: flex;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.section4 img{
+
+.section4 img {
     border-radius: 20px;
     height: 500px;
     width: 600px;
     margin-left: 20px;
     padding: 20px 0;
 }
-.section4 .spans .sec4span1{
-font-size: 50px;
-font-weight: bolder;
+
+.section4 .spans .sec4span1 {
+    font-size: 50px;
+    font-weight: bolder;
 }
-.section4 .spans .sec4span2{
-font-size: 25px;
-padding-top: 20px;
-width: 550px;
+
+.section4 .spans .sec4span2 {
+    font-size: 25px;
+    padding-top: 20px;
+    width: 550px;
 }
-.section5{
+
+.section5 {
     display: flex;
     background-color: rgb(27, 25, 25);
     border-top: grey solid 9px;
     padding: 30px;
 }
-.section5 .spans{
+
+.section5 .spans {
     display: flex;
 }
-.section5 img{
-height: 400px;
-width: 500px;
+
+.section5 img {
+    height: 400px;
+    width: 500px;
 }
-.section5 .spans .sec5span1{
-font-size: 40px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-weight: bolder;
-width: 500px;
-margin-left: 80px;
+
+.section5 .spans .sec5span1 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    width: 500px;
+    margin-left: 80px;
 }
-.section5 .spans .sec5span2{
-font-size: 30px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-width: 700px;
-padding-top: 20px;
-padding-bottom: 20px;
-margin-left: 80px;
+
+.section5 .spans .sec5span2 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 700px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 80px;
 
 }
-.section5 .spans a{
+
+.section5 .spans a {
     color: white;
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 80px;
     text-decoration: none;
 }
-.section5 img{
+
+.section5 img {
     padding-right: 30px;
     border-radius: 12px;
 }
-.section5 .spans a:hover{
+
+.section5 .spans a:hover {
     cursor: pointer;
 }
